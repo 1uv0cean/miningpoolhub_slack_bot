@@ -14,9 +14,9 @@ def exec_cron():
     url = "https://api.upbit.com/v1/market/all"
     resp = requests.get(url)
     data = resp.json() #json
-    eth_balance=float(pyupbit.get_current_price("KRW-ETH"))
+    eth_balance=float(pyupbit.get_current_price("KRW-ETH")) #Upbit에서 Ethereum 원화 시세를 가져옴
 
-    api_key = "miningpoolhub API키"
+    api_key = "miningpoolhub API key" #miningpoolhub API키
     tail = "&api_key="+str(api_key)
     header = "https://ethereum.miningpoolhub.com/index.php?page=api&action="
 
