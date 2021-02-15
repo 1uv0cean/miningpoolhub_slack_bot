@@ -11,4 +11,4 @@
 -----------------------------------------------------------------
 
 <실행화면>
-<img src="app/src/main/start.png" height="400" width="250"/>
+<img src="KakaoTalk_20210215_125449886.jpg" height="400" width="250"/>
